@@ -22,8 +22,7 @@ app.get("/", (req, res) => {
   res.json({
     name: "APIS",
     version: "1.0.0",
-    status: "running",
-    port: PORT,
+    status: "healthy",
     url: `http://localhost:${PORT}`,
     author: "Yunesh Shrestha",
   });
