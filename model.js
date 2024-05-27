@@ -17,6 +17,10 @@ const blogSchema = mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  updatedAt: {
+    type: Date,
+    default: Date.now,
+  },
 });
 const Blog = mongoose.model("Blog", blogSchema);
 export default Blog;
